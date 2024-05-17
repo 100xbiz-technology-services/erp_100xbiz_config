@@ -6,7 +6,8 @@
   "auth": {
     "login": "/user/login",
     "signUp": "/user/signup",
-    "forgotPassword": "/user/forgotPassword"
+    "forgotPassword": "/user/forgotPassword",
+    "refreshToken": "/user/refreshToken"
   },
   "userRegistration": {
     "tellUsAboutYou": "/user/registration/about",
