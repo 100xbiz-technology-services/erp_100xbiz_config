@@ -1,22 +1,16 @@
 {
-  "apiBaseUrl": "https://api.yourapp.com",
-  "userConfigEndpoint": "https://api.yourapp.com/user/config",
-  "authEndpoint": "https://api.yourapp.com/auth/login",
-  "chatServiceUrl": "https://chat.yourapp.com",
-  "analyticsTrackerId": "UA-XXXXX-Y",
-  "featureFlags": {
-    "enableFeatureX": true,
-    "enableFeatureY": false
+  "apiBaseUrl": "https://api.100xbiz.in/v1",
+  "version": "1.0.1",
+  "maintenanceMode": false,
+  "apiDocumentationUrl": "https://api.100xbiz.in/v1/docs",
+  "auth": {
+    "login": "/user/login",
+    "signUp": "/user/signup",
+    "forgotPassword": "/user/forgotPassword"
   },
-  "supportContact": {
-    "email": "support@yourapp.com",
-    "phone": "+1234567890"
-  },
-  "updateCheckUrl": "https://api.yourapp.com/update/check",
-  "newsFeedUrl": "https://api.yourapp.com/news/feed",
-  "loggingLevel": "DEBUG",
-  "retryPolicy": {
-    "maxAttempts": 3,
-    "initialBackoff": 1000
+  "userRegistration": {
+    "tellUsAboutYou": "/user/registration/about",
+    "sendVerificationCodes": "/user/registration/sendVerificationCode",
+    "verifyCode": "/user/registration/verifyCode"
   }
 }
